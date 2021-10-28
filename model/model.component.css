@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+div#um { 
+    width: 650px;
+    height: 650px;
+    border: 3px solid;
+    border-color: black;
+    background-color: blue;
+}
+
+div#dois { 
+    width: 600px;
+    height: 315px;
+    border: 3px solid;
+    border-color: black;
+    background-image: linear-gradient( to right,green, white );
+}
+
+div#tres { 
+    width: 600px;
+    height: 315px;
+    border: 3px solid;
+    border-color: black;
+    background-image: url("../img/back.jpg");
+}
+
+div#texto {
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    top: 100px;
+    width: 350px;
+    line-height: 30px;
+    height: 30px;
+    margin-left: 925px;
+    margin-top: 400px;
+}
